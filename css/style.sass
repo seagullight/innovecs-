@@ -1,0 +1,438 @@
+$colorw: #fff
+$colorb: #ed3e45
+$mcolor: #5a6771
+
+body
+	margin: 0
+	padding: 0
+	background-color: $colorw
+	font-family: 'Open Sans Condensed', sans-serif
+.navbar
+	background-color: $colorw
+	height: 10vh
+	.navbar-header
+		width: 20%
+		color: #ccc
+	img
+		width: 150px
+		height: 50px
+		margin: 0 50%
+	.navbar-toggle
+		.icon-bar
+			background-color: black
+	.navbar-nav
+		width: 78%
+		margin: 15px 1%
+
+		li
+			width: 16%
+			.btn
+				padding: 0
+			a
+				color: $mcolor
+				font-size: 1.7rem
+				font-weight: 300
+				-webkit-transition: color 0.5s ease-out
+				-moz-transition: color 0.5s ease-out
+				-o-transition: color 0.5s ease-out
+				transition: color 0.5s ease-out
+			a:hover
+				background-color: $colorw	
+				color: $colorb
+	.navbar-collapse
+		color: black
+		background-color: $colorw
+section#innslid
+	position: relative
+	display: block
+	height: 95vh
+	background-color: #ccc
+	.carousel-indicators
+		margin-bottom: 100px
+section#ind
+	position: relative
+	top: -90px
+	display: block
+	width: 80%
+	margin: 0 auto
+	box-shadow: 0px 8px 20px -7px #000000
+	.col-md-12
+		padding: 0
+	h2
+		display: block
+		width: 100%
+		height: 100px
+		background-color: white
+		text-transform: uppercase
+		font-size: 1.8rem
+		padding: 7% 0 7% 5%
+
+	h2.ind
+		background-color: $colorb
+		color: $colorw
+	h2.exp
+		background-color: $mcolor
+		color: $colorw
+	.col-sm-6
+		ul
+			line-height: 250%
+			//padding: 0
+		li
+			list-style-type: none
+
+		li.more1
+			position: relative
+			left: -100%
+			border: 1px solid $colorb
+			border-radius: 5px
+			padding: 1% 10% 1% 10%
+			margin-left: -25%
+			margin-top: 50px
+			margin-bottom: 50px
+			-webkit-transition: background-color 0.5s ease-out
+			-moz-transition: background-color 0.5s ease-out
+			-o-transition: background-color 0.5s ease-out
+			transition: background-color 0.5s ease-out
+			a
+				color: $colorb
+				font-weight: 700
+				-webkit-transition: color 0.5s ease-out
+				-moz-transition: color 0.5s ease-out
+				-o-transition: color 0.5s ease-out
+				transition: color 0.5s ease-out
+		li.more1:hover
+			background-color: $colorb
+			a
+				color: $colorw
+		li.more2
+			position: relative
+			left: -100%
+			border: 1px solid $mcolor
+			border-radius: 5px
+			padding: 1% 10% 1% 10%
+			margin-left: -25%
+			margin-top: 50px
+			margin-bottom: 50px
+			-webkit-transition: background-color 0.5s ease-out
+			-moz-transition: background-color 0.5s ease-out
+			-o-transition: background-color 0.5s ease-out
+			transition: background-color 0.5s ease-out
+			a
+				color: $mcolor
+				font-weight: 700
+				-webkit-transition: color 0.5s ease-out
+				-moz-transition: color 0.5s ease-out
+				-o-transition: color 0.5s ease-out
+				transition: color 0.5s ease-out
+		li.more2:hover
+			background-color: $mcolor
+			a
+				color: $colorw			
+
+		li:before
+			content: ""
+			margin-right: 5%
+		li:hover
+			background-color: #ccc
+			color: $colorb
+		a
+			color: $mcolor
+			text-decoration: none
+			font-size: 1.6rem
+			font-weight: 300
+		a:hover
+			color: $colorb
+section#sometext
+	position: relative
+	top: -50px
+	display: block
+	width: 80%
+	margin: 0 auto				
+	h3
+		color: $colorb
+		font-weight: 100
+
+	p
+		color: $mcolor
+		font-size: 1.9rem
+		font-weight: 300	
+section#portfol
+	.col-md-5, .col-md-2 
+		padding: 0
+		div.triangl
+			position: absolute
+			top: 65%
+			left: 90%
+			display: none
+			width: 75px
+			height: 75px
+			background: transparent url(../img/triangl.png) no-repeat
+			background-size: cover
+		div.grid:hover
+			div.triangl
+				display: block	
+		.sometext
+			text-align: center
+			font-family: 'Open Sans Condensed', sans-serif
+			font-size: 4rem
+			font-weight: 300
+			color: $mcolor
+			padding-top: 10%
+			span
+				color: $colorb
+		.sometext2
+			display: block
+			width: 100%
+			//background-color: $colorb
+			padding: 5% 5% 8% 20%
+			color: $colorw
+			font-size: 2.4rem
+			font-family: 'Open Sans Condensed', sans-serif
+			font-weight: 300
+		.more3
+			position: relative
+			top: 100px
+			border: 1px solid $colorb
+			border-radius: 5px
+			padding: 3% 5% 3% 5%
+			margin-top: 10%
+			-webkit-transition: background-color 0.5s ease-out
+			-moz-transition: background-color 0.5s ease-out
+			-o-transition: background-color 0.5s ease-out
+			transition: background-color 0.5s ease-out
+			color: $colorb
+			font-size: 1.5rem
+			font-weight: 700
+			-webkit-transition: color 0.5s ease-out
+			-moz-transition: color 0.5s ease-out
+			-o-transition: color 0.5s ease-out
+			transition: color 0.5s ease-out
+		.more3:hover
+			background-color: $colorb
+			color: $colorw	
+			text-decoration: none
+section#workinn
+	position: relative
+	display: block
+	width: 80%
+	margin: 0 auto
+	line-height: 45px
+	h2
+		font-family: 'Open Sans Condensed', sans-serif
+		font-size: 3.5rem
+		font-weight: 300
+		letter-spacing: 10px
+	p
+		font-family: 'Open Sans Condensed', sans-serif
+		font-size: 2.2rem
+		font-weight: 300
+		margin-top: 5%
+section#news
+	position: relative
+	display: block
+	width: 80%
+	margin: 0 auto
+	border-top: 1px solid #e6e6e6
+	h2
+		font-family: 'Open Sans Condensed', sans-serif
+		font-size: 3.5rem
+		font-weight: 300
+		letter-spacing: 10px
+		margin-top: 5%
+		span
+			color: $colorb
+	.col-md-3
+		padding: 0
+		overflow: hidden
+		img
+			width: 100%
+			z-index: 6
+			opacity: 0
+			position: absolute
+			-webkit-transition: opacity 0.5s ease-out
+			-moz-transition: opacity 0.5s ease-out
+			-o-transition: opacity 0.5s ease-out
+			transition: opacity 0.5s ease-out
+	.col-md-3:hover
+		img
+			opacity: 1
+		p
+			color: $colorw	
+		time
+			color: $colorw
+	.news
+		width: 100%
+		height: 30vh
+		border: 1px solid #e6e6e6
+		margin-top: 15%
+
+
+		p
+			position: absolute
+			top: 50%
+			padding: 0 10% 0 10%
+			font-size: 1.7rem
+			z-index: 100
+			color: $mcolor
+		time
+			position: absolute
+			left: 10%
+			top: 30%
+			color: $colorb	
+			z-index: 100
+	a.more
+		position: relative
+		display: block
+		width: 300px
+		border: 1px solid $mcolor
+		border-radius: 5px
+		color: $mcolor
+		padding: 1% 2% 1% 2%
+		margin-top: 5%
+		margin-bottom: 5%	
+		text-align: center
+		text-decoration: none
+		font-weight: 600
+		-webkit-transition: background-color 1s ease-out
+		-moz-transition: background-color 1s ease-out
+		-o-transition: background-color 1s ease-out
+		transition: background-color 1s ease-out
+	a.more:hover
+		background-color: $mcolor
+		color: $colorw	
+section#contacts
+	background-color: #3b4247
+	color: $colorw
+	padding: 5% 0 0 0
+	h2
+		padding: 0 0 0 20%
+		font-family: 'Open Sans Condensed', sans-serif
+		font-size: 4rem
+		font-weight: 300
+		letter-spacing: 6px
+
+	p.s
+		padding: 0 10% 0 20%	
+		font-family: 'Open Sans Condensed', sans-serif
+		font-size: 2.5rem
+		font-weight: 300
+		margin-top: 10%
+		color: #8d8e94
+	form
+		width: 80%
+		margin: 0 auto
+		.col-md-6
+			padding: 0 15% 0 5%
+		input
+			background-color: transparent
+			color: $colorw
+			border: none
+			border-bottom: 2px solid $colorw/3
+			width: 200%
+			height: 5vh
+			margin-bottom: 27%
+			
+		input::-moz-placeholder 
+			color: $colorw
+			font-family: 'Open Sans Condensed', sans-serif
+			font-size: 2rem
+			font-weight: 300
+			
+		input::-webkit-input-placeholder 
+			color: $colorw
+			font-family: 'Open Sans Condensed', sans-serif
+			font-size: 2rem
+			font-weight: 300
+			
+		textarea
+			background-color: transparent
+			color: $colorw
+			border: none
+			border-bottom: 1px solid $colorw/3
+			font-family: 'Open Sans Condensed', sans-serif
+			font-size: 2rem
+			font-weight: 300
+		input[type="submit"]
+			width: 70%
+			height: 8vh
+			background-color: $colorb
+			color: $colorw
+			border: none
+			border-radius: 5px
+			padding: 5% 0 5% 0
+			font-family: 'Open Sans Condensed', sans-serif
+			font-size: 1.8rem
+			font-weight: 600
+
+
+		
+		input:active
+			border: none
+		input:focus
+			border: none
+			border-bottom: 5px solid $colorb
+section#sots
+	background-color: $mcolor
+	.col-md-6
+		padding: 0
+		p
+			text-align: center
+			margin-top: 3%
+			color: $colorw/2
+		ul
+			padding: 0
+			margin: 0
+			display: table
+			width: 100%
+
+			li
+				display: table-cell
+				
+				width: 16%
+				height: 10vh
+				padding: 0
+				margin-left: 0
+				text-align: center
+				vertical-align: middle
+			
+				a
+					color: $colorw
+					
+					padding: 10% 15% 10% 15%
+				a.f
+					background: transparent url(../img/icons2.png) no-repeat -69px -10px
+				a.in
+					background: transparent url(../img/icons2.png) no-repeat -126px -70px
+				a.tw
+					background: transparent url(../img/icons2.png) no-repeat -126px -10px
+				a.g
+					background: transparent url(../img/icons2.png) no-repeat -185px -10px	
+				a.you
+					background: transparent url(../img/icons2.png) no-repeat -126px -243px	
+				a.rob
+					background: transparent url(../img/icons2.png) no-repeat -243px -128px	
+			.lif
+				background-color: #4c545c
+			.lif:hover
+				background-color: #6081c4	
+			.liin
+				background-color: #485057
+			.liin:hover
+				background-color: #2797cf	
+			.litw
+				background-color: #444b52
+			.litw:hover
+				background-color: #43bdef	
+			.lig
+				background-color: #3f464d
+			.lig:hover
+				background-color: #e62b33	
+			.liyou
+				background-color: #3b4247
+			.liyou:hover
+				background-color: #f15a4b	
+			.lirob
+				background-color: #373d42
+			.lirob:hover
+				background-color: #f89d45	 	
+		

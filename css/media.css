@@ -1,0 +1,80 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1280px) {
+
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 640px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+						
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+	section#innslid{height: auto;}
+	section#ind {top: 0;}
+	section#ind .col-sm-6 li.more1 {left: 0; margin-left: -20%}
+	section#ind .col-sm-6 li.more1 a {font-size: 1.3rem;}
+	section#ind .col-sm-6 li.more2 {left: 0; margin-left: -20%}
+	section#ind .col-sm-6 li.more2 a {font-size: 1.3rem;}
+	section#sometext {top: 0;}
+	section#news a.more {width: 90%; font-size: 1.5rem;}
+	section#contacts form input {width: 80%;}
+	section#contacts form textarea {width: 80%;}
+	.navbar {height: auto;}
+	.navbar .navbar-brand {padding: 0 15px; height: 0;}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	section#innslid{height: auto;}
+	section#ind {top: 0;}
+	section#ind .col-sm-6 li.more1 {left: 0; margin-left: -20%}
+	section#ind .col-sm-6 li.more1 a {font-size: 1.3rem;}
+	section#ind .col-sm-6 li.more2 {left: 0; margin-left: -20%}
+	section#ind .col-sm-6 li.more2 a {font-size: 1.3rem;}
+	section#sometext {top: 0;}
+	section#news a.more {width: 90%; font-size: 1.5rem;}
+	section#contacts form input {width: 80%;}
+	section#contacts form textarea {width: 80%;}
+	.navbar {height: auto;}
+	.navbar .navbar-brand {padding: 0 15px; height: 0;}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+/**/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
